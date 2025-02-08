@@ -1,0 +1,29 @@
+# ComentÃ¡rios comeÃ§am com "#" e sÃ£o ignorados pelo Git
+
+# Ignorar arquivos de compilaÃ§Ã£o
+*.o
+*.class
+*.exe
+.env
+# Ignorar diretÃ³rios e arquivos gerados por IDEs
+.idea/
+.vscode/
+
+# Ignorar arquivos temporÃ¡rios
+*.tmp
+*.log
+
+# Ignorar arquivos de configuraÃ§Ã£o com chaves de API ou senhas
+config.ini
+secrets.json
+
+# Ignorar diretÃ³rio node_modules em projetos JavaScript
+node_modules/
+
+# Ignorar arquivos de cache
+.cache/
+
+.env
+node_modules
+package-lock.json
+.DS_Store
